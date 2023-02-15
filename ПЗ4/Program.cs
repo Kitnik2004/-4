@@ -1,0 +1,10 @@
+﻿Console.WriteLine("Введите число от 0 до 100");
+string snumber = "0";
+snumber = Console.ReadLine();
+int number = Convert.ToInt32(snumber);
+if (number < 0) Console.WriteLine("Число меньше 0");
+else if (number <= 14) Console.WriteLine("Промежуток числа от 0 до 14");
+else if (number <= 35) Console.WriteLine("Промежуток числа от 15 до 35");
+else if (number <= 50) Console.WriteLine("Промежуток числа от 36 до 50");
+else if (number <= 100) Console.WriteLine("Промежуток числа от 51 до 100");
+else if (number > 100) Console.WriteLine("Число больше 100");
